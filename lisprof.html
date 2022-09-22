@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRUD</title>
+  <title>Lista Professores</title>
   <link rel="stylesheet" href="liststyle.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
 </head>
@@ -13,7 +13,7 @@
 <body>
   <div class="container">
     <div class="header">
-      <span>Cadastro de Funcionários</span>
+      <span>Cadastro de Professores</span>
       <button onclick="openModal()" id="new">Incluir</i></button>
     </div>
 
@@ -22,8 +22,8 @@
         <thead>
           <tr>
             <th>Nome</th>
-            <th>Função</th>
-            <th>Salário</th>
+            <th>Nasc.</th>
+            <th>Salario</th>
             <th class="acao">Editar</th>
             <th class="acao">Excluir</th>
           </tr>
@@ -39,8 +39,8 @@
           <label for="m-nome">Nome</label>
           <input id="m-nome" type="text" required />
   
-          <label for="m-funcao">Função</label>
-          <input id="m-funcao" type="text" required />
+          <label for="m-funcao">Nasc.</label>
+          <input id="m-funcao" type="date" required />
   
           <label for="m-salario">Salário</label>
           <input id="m-salario" type="number" required />
@@ -50,7 +50,7 @@
     </div>
 
   </div>
-  <script src="script.js"></script>
+  <script src="scriptprof.js"></script>
 </body>
 
 </html>
