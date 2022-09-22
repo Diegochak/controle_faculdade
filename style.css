@@ -11,7 +11,7 @@
 .header {
     width: 100%;
     min-height: 40px;
-    background-color: #F83829;
+    background-color: #f2f2f2ac;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,7 +20,7 @@
     gap: 8px 15px;
 }
 .logoNavBar {
-    width: 150px;
+    width: 250px;
 }
 .headerBtnGroup {
     display: flex;
@@ -29,14 +29,18 @@
 .navBtn {
     font-size: 16px;
     padding: 6px;
-    background-color: transparent;
-    border: 2px solid transparent;
-    color: #fff;
+    background-color: #000099db;
+    border: 2px;
+    color: #EAEAF6;
     cursor: pointer;
     transition: 0.4s;
+    border-radius: 6px;
+    padding: 13px;
+    transition: all 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navBtn:hover {
-    border-bottom: 2px solid #000000;
+    border-bottom: 3px solid #000000;
 }
 .sectionTitle {
     font-size: 26px;
@@ -50,16 +54,16 @@
 }
 .gridContainer {
     display: grid;
-    grid-template-columns: 3fr 1fr;/*maincontent 3fr/ side bar 1fr*/
+    grid-template-columns: 4fr 1fr;/*maincontent 3fr/ side bar 1fr*/
     grid-template-areas: "mainContent sidebarContent";
-    padding: 20px;
+    padding: 50px;
     flex: 1 0 auto;
 }
 .mainContent {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 35px;
 }
 .categoryCard {
     width: 280px;
@@ -78,26 +82,32 @@
     border-color: #d88383;
 }
 .mainCategoryCardTitle {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 6px;
+    align-items: center;
+    font-weight: 700;
+    font-variant-caps: titling-caps;
 }
 .mainCategoryCardDescription {
     padding: 6px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .sideBarContent {
-    background-color: #383838;
+    background-color: #E92936;
     color: white;
-    border-radius: 10px;
-    padding: 16px;
+    border-radius: 38px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-width: 300px;
     grid-area: sidebarContent;
-    gap: 20px;
+    gap: 25px;
 }
 .sidebarCard {
-    width: 75%;
+    width: 100%;
     border: 1px solid transparent;
     border-radius: 10px;
     transition: 0.5s;
@@ -108,9 +118,10 @@
     border-radius: 10px;
 }
 .sideBarCardTitle {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    font-weight: 400;
     text-align: center;
-    padding: 10px;
 }
 .sidebarCard:hover {
     border-color: #dcdcdc;
@@ -118,7 +129,7 @@
 .footer {
     width: 100%;
     min-height: 40px;
-    background-color: #F83829;
+    background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
