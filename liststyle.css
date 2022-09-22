@@ -47,7 +47,7 @@ button {
   border-radius: 5px;
   border: none;
   color: white;
-  background-color: rgb(57, 57, 226);
+  background-color: rgb(229, 34, 34);
 }
 
 .divTable {
@@ -79,7 +79,7 @@ thead {
 }
 
 tr {
-  border-bottom: 1px solid rgb(238, 235, 235)!important;
+  border-bottom: 1px solid rgb(176, 31, 31)!important;
 }
 
 tbody tr td {
@@ -189,7 +189,7 @@ tbody tr td.acao {
   padding: 5px 10px; 
   width: 100%;
   border: none;
-  background-color: rgb(57, 57, 226);
+  background-color: rgb(229, 34, 34);
   color: white;
 }
 
