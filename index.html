@@ -1,94 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Faculdade Magni</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="./src/assets/styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css">
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header class="header">
-            <img src="./img/magni-logo2.png" alt="logo-header" class="logoNavBar">
-            <div class="headerBtnGroup">               
-                <a href="./login.html"><button class="navBtn">Login</button></a>
-                <a href="./form.html"><button class="navBtn">Registro</button></a>
-            </div>
-        </header>
-            <section class="gridContainer">
-            <div class="mainContent">
-                <div class="categoryCard">
-                    <img src="./img/001.jpg" alt="mainCardImg" class="mainCardImg">
-                    <p class="mainCategoryCardTitle">Data science</p>
-                    <p class="mainCategoryCardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequuntur vitae reiciendis ut velit voluptatem iure facere quis rerum eius at?</p>
-                </div>
-                <div class="categoryCard">
-                    <img src="./img/002.jpg" alt="mainCardImg" class="mainCardImg">
-                    <p class="mainCategoryCardTitle">Gestão</p>
-                    <p class="mainCategoryCardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequuntur vitae reiciendis ut velit voluptatem iure facere quis rerum eius at?</p>
-                </div>
-                <div class="categoryCard">
-                    <img src="./img/003.jpg" alt="mainCardImg" class="mainCardImg">
-                    <p class="mainCategoryCardTitle">Design</p>
-                    <p class="mainCategoryCardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequuntur vitae reiciendis ut velit voluptatem iure facere quis rerum eius at?</p>
-                </div>
-                <div class="categoryCard">
-                    <img src="./img/001 (2).jpg" alt="mainCardImg" class="mainCardImg">
-                    <p class="mainCategoryCardTitle">Ead</p>
-                    <p class="mainCategoryCardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequuntur vitae reiciendis ut velit voluptatem iure facere quis rerum eius at?</p>
-                </div>
-                <div class="categoryCard">
-                    <img src="./img/001 (3).jpg" alt="mainCardImg" class="mainCardImg">
-                    <p class="mainCategoryCardTitle">Unidades</p>
-                    <p class="mainCategoryCardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequuntur vitae reiciendis ut velit voluptatem iure facere quis rerum eius at?</p>
-                </div>
-                <div class="categoryCard">
-                    <img src="./img/001 (4).jpg" alt="mainCardImg" class="mainCardImg">
-                    <p class="mainCategoryCardTitle">Palestras</p>
-                    <p class="mainCategoryCardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequuntur vitae reiciendis ut velit voluptatem iure facere quis rerum eius at?</p>
-                </div>
-                <div class="categoryCard">
-                    <img src="./img/001 (5).jpg" alt="mainCardImg" class="mainCardImg">
-                    <p class="mainCategoryCardTitle">Reitoria</p>
-                    <p class="mainCategoryCardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequuntur vitae reiciendis ut velit voluptatem iure facere quis rerum eius at?</p>
-                </div>
-                <div class="categoryCard">
-                    <img src="./img/001.jpg" alt="mainCardImg" class="mainCardImg">
-                    <p class="mainCategoryCardTitle">Videos</p>
-                    <p class="mainCategoryCardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequuntur vitae reiciendis ut velit voluptatem iure facere quis rerum eius at?</p>
-                </div>
-                </div>
-            <div class="sideBarContent">
-                <div class="sidebarCard">
-                    <a href="./listaluno.html">
-                    <img src="./img/pexels-stanley-morales-1454360.jpg" alt="sideBarCardImg" class="sideBarCardImg"></a>
-                    <p class="sideBarCardTitle">Alunos</p>
-                </div>
-                <div class="sidebarCard">
-                    <a href="./listprof.html">
-                    <img src="./img/pexels-pixabay-159844.jpg" alt="sideBarCardImg" class="sideBarCardImg"></a>
-                    <p class="sideBarCardTitle">Professores</p>
-                </div>
-                <div class="sidebarCard">
-                    <img src="./img/pexels-pixabay-207684.jpg" alt="sideBarCardImg" class="sideBarCardImg">
-                    <p class="sideBarCardTitle">Cursos</p>
-                </div>
-            </div>
-        </section>
-        <footer class="footer">
-        
-        </footer>
+      <header class="header">
+        <img src="./src/assets/img/magni-logo2.png" alt="logo-header" class="logoNavBar"/>
+        <div class="headerBtnGroup">
+          <a href="./src/login.html"><button class="navBtn">Login</button></a>
+          <a href="./src/form.html"><button class="navBtn">Registro</button></a>
+        </div>
+      </header>
+      <section class="gridContainer">
+        <div class="mainContent" id="principal">
     </div>
-</body>
+        <div class="sideBarContent">
+          <div class="sidebarCard">
+            <a href="./src/listaluno.html">
+              <figure class="imghvr-shutter-out-vert">
+                <img src="./src/assets/img/pexels-stanley-morales-1454360.jpg">
+                <figcaption>Lista de alunos</figcaption>
+              </figure>
+            </a>
+            <p class="sideBarCardTitle">Alunos</p>
+          </div>
+
+          <div class="sidebarCard">
+            <a href="./src/listprof.html">
+              <figure class="imghvr-shutter-out-vert">
+                <img src="./src/assets/img/pexels-pixabay-159844.jpg">
+                <figcaption>Lista de professores</figcaption>
+              </figure>
+            </a>
+            <p class="sideBarCardTitle">Professores</p>
+          </div>
+
+          <div class="sidebarCard">
+            <figure class="imghvr-shutter-out-vert">
+              <img src="./src/assets/img/002.jpg">
+              <figcaption>Grade de cursos</figcaption> 
+            </figure>
+            <p class="sideBarCardTitle">Cursos</p>
+          </div>
+        </div>
+      </section>
+    <footer class="footer"></footer>
+    </div>
+    <script src="./src/assets/js/script.js"></script>
+  </body>
 </html>

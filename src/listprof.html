@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista Professores</title>
+  <link rel="stylesheet" href="./assets/styles/liststyle.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="backBtnGroup">               
+      <a href="/index.html"><button class="backBtnGroup">Voltar</button></a>
+    </div>
+    <div class="header">
+      <span>Cadastro de Professores</span>
+      <button onclick="openModal()" id="new">Incluir</i></button>
+    </div>
+
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Nasc.</th>
+            <th>Salario</th>
+            <th class="acao">Editar</th>
+            <th class="acao">Excluir</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <form>
+          <label for="m-nome">Nome</label>
+          <input id="m-nome" type="text" required />
+  
+          <label for="m-funcao">Nasc.</label>
+          <input id="m-funcao" type="date" required />
+  
+          <label for="m-salario">Salário</label>
+          <input id="m-salario" type="number" required />
+          <button id="btnSalvar">Salvar</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <script src="./assets/js/scriptprof.js"></script>
+</body>
+
+</html>
