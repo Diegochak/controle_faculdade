@@ -10,6 +10,6 @@ Todo site montado somente com HTML, CSS e JS puro.
 
 https://diegochak.github.io/controle_faculdade/
 
-!{preview (./)}
+!{preview (./asstes/img/PageScrennshot.png)}
 
 Vlw gente forkem aeeeeee.........................
