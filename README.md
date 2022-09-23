@@ -8,4 +8,8 @@ Abertura do cadastro de alunos e professores na sidebar ( com animação no hove
 
 Todo site montado somente com HTML, CSS e JS puro.
 
+https://diegochak.github.io/controle_faculdade/
+
+!{preview (./)}
+
 Vlw gente forkem aeeeeee.........................
